@@ -26,6 +26,20 @@
 
 [Fetch modules, transpilling and bundling (executable code)](https://www.notion.so/Fetch-modules-transpilling-and-bundling-executable-code-17d3549880fe403fb13ad1eaf9ce4f22)
 
+# Why doing this?
+
+- I'm building a service like codepen
+
+# Issues 
+- Some code might have advanced JS syntax in it (like JSX) that browser can't execute
+- Some code might have import statements for other JS files or CSS. We have to deal with those import statements before executing the code 
+=> It needs transpilling and bundling on the browser-side.
+
+# How to solve the issues?
+- On browser, bundling doesn't work, because it needs hard-disk.
+- resolved the issue from browser with https://unpkg.com/
+
+
 # Plugins
 
 ### unpkg-path-plugin.ts
