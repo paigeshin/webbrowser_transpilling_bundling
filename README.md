@@ -33,6 +33,7 @@
 # Issues 
 - Some code might have advanced JS syntax in it (like JSX) that browser can't execute
 - Some code might have import statements for other JS files or CSS. We have to deal with those import statements before executing the code 
+
 => It needs transpilling and bundling on the browser-side.
 
 # How to solve the issues?
